@@ -1,21 +1,18 @@
-# Substrate Node Template
+# OmniBlock
 
-[![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://docs.substrate.io/playground/) [![Matrix](https://img.shields.io/matrix/substrate-technical:matrix.org)](https://matrix.to/#/#substrate-technical:matrix.org)
+A FRAME-based [Substrate](https://www.substrate.io/) blockchain node :rocket:
 
-A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
+## Functional Requirements
+
+Since this is a test blockchain project being used to hone my blockchain/substrate skills, it should be able
+to accomplish the following test goals:
+
+1. Create MultiSend functionality to allow users send tokens to a list of people at once
+2. Create a skill verification system
 
 ## Getting Started
 
-Follow the steps below to get started with the Node Template, or get it up and running right from
-your browser in just a few clicks using
-the [Substrate Playground](https://docs.substrate.io/playground/) :hammer_and_wrench:
-
-### Using Nix
-
-Install [nix](https://nixos.org/) and optionally [direnv](https://github.com/direnv/direnv) and
-[lorri](https://github.com/target/lorri) for a fully plug and play experience for setting up the
-development environment. To get all the correct dependencies activate direnv `direnv allow` and
-lorri `lorri shell`.
+Follow the steps below to get started with the OmniBlock Node
 
 ### Rust Setup
 
