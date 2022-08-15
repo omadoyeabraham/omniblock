@@ -8,6 +8,9 @@ Since this is a test blockchain project being used to hone my blockchain/substra
 to accomplish the following test goals:
 
 1. Create MultiSend functionality to allow users send tokens to a list of people at once
+   - [ ] Write tests for this pallet
+   - [ ] Benchmark this pallet
+   - [ ] Account for transaction fees when "multisending" tokens
 2. Create a skill verification system
 
 ## Getting Started
