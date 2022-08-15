@@ -81,9 +81,9 @@ pub fn local_testnet_config() -> Result<ChainSpec, String> {
 
 	Ok(ChainSpec::from_genesis(
 		// Name
-		"Local Testnet",
+		"OmniBlock Testnet",
 		// ID
-		"local_testnet",
+		"omniblock_testnet",
 		ChainType::Local,
 		move || {
 			testnet_genesis(
